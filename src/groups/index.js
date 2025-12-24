@@ -1,3 +1,3 @@
-export {CreateGroupPage} from './CreateGrroupPage';
+export {CreateGroupPage} from './CreateGroupPage';
 export {GroupsListPage} from './GroupsListPage';
 export {GroupPage} from './GroupPage';  
