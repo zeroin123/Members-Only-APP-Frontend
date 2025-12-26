@@ -16,7 +16,7 @@ const routes = [{
     Component: CreateGroupPage,
     private: true,
 }, {
-    path: '/groups/:id',
+    path: '/groups/:groupId',
     Component: GroupPage,
     private: true,
 }]

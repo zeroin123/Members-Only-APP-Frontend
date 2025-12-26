@@ -1,12 +1,12 @@
 import React from 'react';
-import {Navigate, Route} from 'react-router-dom';
+import {Navigate} from 'react-router-dom';
 
-export const PrivateRoute = ({isAuthed, isLoading, ...rest}) => {
+export const PrivateRoute = ({isAuthed, isLoading, children}) => {
     if (isLoading) {
         return <div>Loading...</div>;
     }
     if (!isAuthed) {
         return <Navigate to = '/signin' replace />;
     }
-    return <Route {...rest} />;
+    return children ;
 };

@@ -1,3 +1,3 @@
-export {CreateGroupPage} from './CreateGroupPage';
-export {GroupsListPage} from './GroupsListPage';
-export {GroupPage} from './GroupPage';  
+export {CreateGroupPage} from './CreateGroupPage.js';
+export {GroupsListPage} from './GroupsListPage.js';
+export {GroupPage} from './GroupPage.js';  

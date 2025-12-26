@@ -30,6 +30,7 @@ button {
   font-weight: bold;
   outline: none;
   padding: 16px;
+  margin: 4px 4px;
 }
 
 a {
