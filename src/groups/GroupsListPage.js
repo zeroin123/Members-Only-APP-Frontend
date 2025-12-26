@@ -16,7 +16,7 @@ export const GroupsListPage = () => {
 
     return (
         <div className="centered-container">
-            <h1 className="section-heading">Groups List</h1>
+            <h1 className="section-heading">My Groups</h1>
 
             <GroupsList
                 isLoading={isLoading}
@@ -24,7 +24,7 @@ export const GroupsListPage = () => {
                 ListItemComponent={MyGroupsListItem}
             />
 
-            <h1 className="section-heading">All Groups</h1>
+            <h1 className="section-heading">Other Groups</h1>
 
             <GroupsList
                 isLoading={isLoading}

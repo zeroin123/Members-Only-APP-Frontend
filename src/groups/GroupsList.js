@@ -6,3 +6,4 @@ export const GroupsList = ({ isLoading, groups, ListItemComponent }) =>
         : groups.map(group => (
             <ListItemComponent key={group._id} group={group} />
         ));
+        
